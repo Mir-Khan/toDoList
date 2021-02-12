@@ -1,0 +1,178 @@
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;700&display=swap");
+/* fixing the font-size so rem works off of 10px as the base */
+html {
+  font-size: 62.5%; }
+
+body {
+  background-color: #0f3460;
+  color: white; }
+
+/* bootstrap mods */
+.row,
+.form-margin {
+  margin-top: 1.5rem; }
+
+.button-margin {
+  margin-top: 8rem;
+  margin-bottom: 3rem; }
+
+/* todo app styles */
+.todo-app {
+  font-family: "Titillium Web", sans-serif; }
+
+.heading {
+  margin-bottom: 4rem;
+  margin-top: 2rem; }
+
+.app-title {
+  font-family: "Titillium Web", sans-serif;
+  text-decoration: underline;
+  font-weight: bold;
+  font-size: 2.5rem; }
+
+.app-description {
+  font-family: "Titillium Web", sans-serif;
+  margin-top: 2rem;
+  font-size: 1.9rem; }
+
+@media only screen and (max-width: 450px) {
+  .app-title {
+    font-size: 2rem; }
+  .app-description {
+    font-size: 1.5rem; } }
+
+/** add todo **/
+.add-todo {
+  font-size: 1.6rem; }
+
+.add-priority {
+  margin-left: 1.5rem;
+  font-size: 1.5rem; }
+
+.text-input {
+  font-size: 1.5rem;
+  height: 2.2rem; }
+
+.form-label {
+  font-size: 1.8rem; }
+
+@media only screen and (max-width: 860px) {
+  .text-input,
+  .add-priority {
+    font-size: 1.4rem;
+    padding: 0.3rem;
+    margin: 0.3rem; }
+  .form-label {
+    font-size: 1.6rem; }
+  .add-todo {
+    font-size: 1.4rem; }
+  .button-margin {
+    margin-top: 7rem;
+    margin-bottom: 2rem; } }
+
+@media only screen and (max-width: 450px) {
+  .form-label {
+    font-size: 1.2rem; }
+  .add-todo, .add-priority {
+    font-size: 1.1rem; }
+  .button-margin {
+    margin-top: 8rem;
+    margin-bottom: 3rem; } }
+
+@media only screen and (max-width: 400px) {
+  .add-priority, .add-todo {
+    font-size: 0.8rem; } }
+
+.date-input {
+  height: 2.2rem; }
+
+.text-field {
+  height: 2rem; }
+
+.add-priority:hover {
+  cursor: pointer; }
+
+/** todo list **/
+.todo-list {
+  margin-top: 1rem;
+  text-align: left;
+  list-style: none; }
+
+/** todo list table**/
+.table-dark {
+  background-color: #16213e !important; }
+
+.table-text {
+  color: white; }
+
+.no-todos {
+  font-size: 2.2rem; }
+
+.todo-list-headers {
+  font-size: 1.9rem;
+  text-decoration: underline;
+  margin-bottom: 1.9rem; }
+
+.todo-item {
+  font-family: "Titillium Web", sans-serif;
+  line-height: 1.5;
+  font-size: 1.6rem; }
+
+.priority-icon {
+  font-size: 3rem; }
+
+@media only screen and (max-width: 860px) {
+  .no-todos {
+    font-size: 1.4rem; } }
+
+@media only screen and (max-width: 450px) {
+  .todo-list-headers {
+    font-size: 1.35rem; }
+  .todo-item {
+    font-size: 1.25rem; } }
+
+@media only screen and (max-width: 400px) {
+  .todo-list-headers {
+    font-size: 1.3rem; }
+  .todo-item {
+    font-size: 1.2rem;
+    margin-left: 0.3rem; } }
+
+@media only screen and (max-width: 370px) {
+  .todo-list-headers {
+    font-size: 1.2rem; }
+  .todo-item {
+    font-size: 1.1rem; } }
+
+.toggle-todo {
+  cursor: pointer; }
+
+.due {
+  color: #e94560;
+  font-weight: bold;
+  text-decoration: underline; }
+
+.delete-todo {
+  cursor: pointer; }
+
+.todo-item__text--completed {
+  text-decoration: line-through;
+  color: lightgray; }
+
+/** visibility filters **/
+.filter {
+  padding: 0.3rem 0;
+  margin: 0 0.3rem;
+  cursor: pointer; }
+
+.filter--active {
+  border-bottom: 1px solid white; }
+
+/* visibility filters */
+.visibility-filters {
+  font-size: 2rem;
+  margin-top: 2rem; }
+
+@media only screen and (max-width: 450px) {
+  .visibility-filters {
+    font-size: 1.4rem; } }
