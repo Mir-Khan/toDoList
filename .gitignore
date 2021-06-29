@@ -11,6 +11,9 @@
 # production
 /build
 gulpfile.js
+.firebase
+firebase.json
+.firebaserc
 
 # misc
 .DS_Store
